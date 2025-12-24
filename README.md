@@ -1,13 +1,13 @@
-# Kinase–Substrate Interaction Models
-
-This repository contains two complementary projects for running **kinase–substrate interaction prediction models**:
+# Kinase–Substrate Site Prediction
+This is an official implementation of **Predicting Kinase-Specific Phosphorylation Sites with
+Pretrained Protein Language Models** [link](https://www.biorxiv.org/content/10.1101/2025.03.12.642740v2.abstract).
 
 | Project | Description | Usage |
 |----------|-------------|-------|
 | [Docker](./Docker) | Run the pretrained model entirely inside a Docker container. | Plug-and-play inference without local dependencies. |
 | [Inference](./inference) | Run inference directly via Python (`inference.py`) and a config file. | For developers who want more control or integration. |
 
-Both methods output **per-residue predictions** (binary binding masks) and **positive residue indices** for each substrate sequence. Probabilities for each predicted residue can be enabled in both methods.
+The method outputs **per-residue predictions** (binary binding masks) and **positive residue indices** for each substrate sequence. Probabilities for each predicted residue can be enabled in inference script.
 
 ---
 
@@ -29,3 +29,21 @@ After downloading, place it in:
 
 # For Python inference:
 ./inference/model_state.pth
+
+```
+
+## 📜 Citation
+
+If you use this code or the pretrained models, please cite the following paper:
+
+```bibtex
+@article{pourmirzaei2025predicting,
+  title={Predicting Kinase-Specific Phosphorylation Sites with Pretrained Protein Language Models},
+  author={Pourmirzaei, Mahdi and Esmaili, Farzaneh and Chen, Kai and Pourmirzaei, Mohammadreza and Rezaei, Mohsen and Wang, Duolin and Xu, Dong},
+  journal={bioRxiv},
+  pages={2025--03},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
+
+```
