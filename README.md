@@ -20,7 +20,7 @@ The model is a **transformer-based encoder–decoder** architecture that:
 
 ## Pretrained Checkpoint
 Download the pretrained model weights here:  
-➡️ [Download `model_state.pth`](https://mailmissouri-my.sharepoint.com/my?CT=1762894034365&OR=OWA%2DNT%2DMail&CID=ed7bf1d7%2D2196%2D46ef%2D6414%2D603daa7c905a&e=5%3A116f7edc372e494a824884deaa68b405&sharingv2=true&fromShare=true&at=9&id=%2Fpersonal%2Fdc57y%5Fumsystem%5Fedu%2FDocuments%2FKinase%20model%20checkpoint&FolderCTID=0x012000FD8061A658A93B4BB7BAE70D3A6E59D5)
+➡️ [Download `model_state.pth`]([https://mailmissouri-my.sharepoint.com/my?CT=1762894034365&OR=OWA%2DNT%2DMail&CID=ed7bf1d7%2D2196%2D46ef%2D6414%2D603daa7c905a&e=5%3A116f7edc372e494a824884deaa68b405&sharingv2=true&fromShare=true&at=9&id=%2Fpersonal%2Fdc57y%5Fumsystem%5Fedu%2FDocuments%2FKinase%20model%20checkpoint&FolderCTID=0x012000FD8061A658A93B4BB7BAE70D3A6E59D5](https://mailmissouri-my.sharepoint.com/:f:/g/personal/dc57y_umsystem_edu/IgCSPy_7wFLRQLlliKDdQvtMARcD9nCSxTFf01z60dTFIG0))
 
 After downloading, place it in:
 ```bash
