@@ -20,7 +20,7 @@ The model is a **transformer-based encoder–decoder** architecture that:
 
 ## Pretrained Checkpoint
 Download the pretrained model weights here:  
-➡️ [Download `model_state.pth`](https://mailmissouri-my.sharepoint.com/my?id=%2Fpersonal%2Fdc57y%5Fumsystem%5Fedu%2FDocuments%2FKinase%20model%20checkpoint&ga=1)
+➡️ [Download `model_state.pth`]([https://mailmissouri-my.sharepoint.com/my?id=%2Fpersonal%2Fdc57y%5Fumsystem%5Fedu%2FDocuments%2FKinase%20model%20checkpoint&ga=1](https://drive.google.com/file/d/1Cd2ckwkfQHRiARIo8p2qSfXUgZUQkc09/view?usp=drive_link))
 
 
 
